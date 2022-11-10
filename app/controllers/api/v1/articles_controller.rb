@@ -8,7 +8,7 @@ class Api::V1::ArticlesController < ApplicationController
 
     render json: @articles
   end
-
+##
   # GET /articles/1
   def show
     render json: @article
