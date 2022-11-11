@@ -7012,7 +7012,7 @@
 
             
 
-            <code class="ruby">  config.mailer_sender = Rails.env.production? ? Rails.application.credentials.zoho[:mailer_sender] : &#39;devise@example.com&#39;</code>
+            <code class="ruby">  config.mailer_sender = Rails.env.production? ? Rails.application.credentials.gmail[:mailer_sender] : &#39;devise@example.com&#39;</code>
           </li>
         </div>
       
@@ -11265,7 +11265,7 @@
 
             
 
-            <code class="ruby">      sender_address: %(&quot;Blog API&quot; &lt;#{Rails.application.credentials.zoho[:user_name]}&gt;),</code>
+            <code class="ruby">      sender_address: %(&quot;Blog API&quot; &lt;#{Rails.application.credentials.gmail[:user_name]}&gt;),</code>
           </li>
         </div>
       
